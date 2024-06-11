@@ -8,7 +8,7 @@ Add the following line to your pubspec.yaml file:
 
 ```yaml
 dependencies:
-  octopod: ^version_number
+  octopod: ^0.0.1
 ```
 
 # Usage
