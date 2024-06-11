@@ -1,7 +1,7 @@
 name: octopod
 description: "Package for interacting with Octopus Energy REST API."
 version: 0.0.1
-homepage:
+homepage: https://github.com/LucasBourne/octopod
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
