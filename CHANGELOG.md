@@ -1,3 +1,7 @@
+## 0.0.2
+
+Updated supported platforms
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+Initial release, featuring `getProducts` functionality
