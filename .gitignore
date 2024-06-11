@@ -8,12 +8,12 @@
 .pub/
 build/
 pubspec.lock
+example/pubspec.lock
 
 # API documentation directory created by dartdoc
 doc/api/
 
 # files and directories created by other development environments
-*.iml
 *.ipr
 *.iws
 .idea/
