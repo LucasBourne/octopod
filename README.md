@@ -1,14 +1,14 @@
 # Octopod
 This package provides a handy tool for interacting with the [Octopus Energy REST API](https://developer.octopus.energy/rest/).
 
-This is still in the early stages of development and as such, currently provides only basic functionality (Currently only `getProducts` is supported).
+This is still in the early stages of development and as such, currently provides only basic functionality (Currently only `getProducts` and `getAccount` are supported).
 
 # Installation
 Add the following line to your pubspec.yaml file:
 
 ```yaml
 dependencies:
-  octopod: ^0.1.0
+  octopod: ^0.1.1
 ```
 
 # Usage
