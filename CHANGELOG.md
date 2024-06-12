@@ -1,3 +1,7 @@
+## 0.1.2
+
+Export models
+
 ## 0.1.1
 
 Updated readme
