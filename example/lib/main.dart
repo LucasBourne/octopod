@@ -24,7 +24,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final _octopod = Octopod(apiKey: '<api-key>');
+  final _octopod = Octopod();
 
   @override
   Widget build(BuildContext context) {

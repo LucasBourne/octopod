@@ -1,3 +1,7 @@
+## 0.1.4
+
+Update API key usage flow
+
 ## 0.1.3
 
 Remove model export

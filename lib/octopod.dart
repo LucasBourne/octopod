@@ -5,11 +5,13 @@ import 'package:octopod/models/product.dart';
 import 'package:octopod/services/http_client_service.dart';
 
 class Octopod {
-  Octopod({this.apiKey});
-
-  final String? apiKey;
+  Octopod();
 
   final _httpClientService = HttpClientService();
+
+  String? _apiKey;
+
+  void setApiKey(String apiKey) => _apiKey = apiKey;
 
   Future<List<Product>> getProducts() async {
     final productResponse = await _httpClientService.get('/products');
@@ -23,7 +25,7 @@ class Octopod {
   Future<Account> getAccount(String userId) async {
     final accountResponse = await _httpClientService.get(
       '/accounts/$userId/',
-      apiKey,
+      _apiKey,
     );
     final account = Account.fromJson(accountResponse);
 
