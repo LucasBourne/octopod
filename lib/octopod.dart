@@ -1,5 +1,6 @@
 library octopod;
 
+import 'package:octopod/models/account.dart';
 import 'package:octopod/models/product.dart';
 import 'package:octopod/services/http_client_service.dart';
 
@@ -17,5 +18,15 @@ class Octopod {
         results.map<Product>((result) => Product.fromJson(result)).toList();
 
     return products;
+  }
+
+  Future<Account> getAccount(String userId) async {
+    final accountResponse = await _httpClientService.get(
+      '/accounts/$userId/',
+      apiKey,
+    );
+    final account = Account.fromJson(accountResponse);
+
+    return account;
   }
 }

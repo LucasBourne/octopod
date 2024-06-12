@@ -1,6 +1,6 @@
 name: octopod
-description: "Package for interacting with Octopus Energy REST API."
-version: 0.0.2
+description: "This package provides a handy tool for interacting with the Octopus Energy REST API."
+version: 0.1.0
 repository: https://github.com/LucasBourne/octopod
 
 platforms:
